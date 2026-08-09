@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if_else Statement in javaScript</title>
+    <script>
+        console.log("Let's Learn if_else Statement in javaScript");
+        let a = 18;
+        if ( a > 18 ) {
+            console.log("you are eligible for voting");
+        }
+        else {
+            console.log("you are not eligible for voting");
+        }
+
+        // nested if_else statement
+        let b = 20;
+        if ( b > 18 ) {
+            console.log("you are eligible for voting");
+            if ( b > 25 ) {
+                console.log("you are also eligible for contesting elections");
+            }
+            else {
+                console.log("you are not eligible for contesting elections");
+            }
+        }
+        else {
+            console.log("you are not eligible for voting");
+        }
+    </script>
+</head>
+<body>
+    <p>
+        javascript if_else statement is used to perform different actions based on different conditions. In this example, we check if the variable 'a' is greater than 18. If it is, we log "you are eligible for voting" to the console. If it is not, we log "you are not eligible for voting". This allows us to make decisions in our code based on the value of variables.
+    </p>
+</body>
+</html>
