@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects in javaScript</title>
+    <script>
+        console.log("Let's Learn Objects in javaScript");
+
+        // object creation
+        let obj = {
+
+            name: "Pritam Nayak",
+            age: 30,
+            city: "New York",
+            salary: 50000,
+        };
+        console.log(obj);
+
+        let student = {
+ name: "John",
+ address: {
+ city: "Mumbai",
+ pin: 400001
+}
+};
+console.log(student.address.city); // "Mumbai"
+
+let user = {
+ name: "Sara",
+ greet: function () {
+ console.log("Hello, " + this.name);
+}
+};
+user.greet(); // "Hello, Sara"
+    </script>
+</head>
+<body>
+    <p>
+        objects in javaScript are used to store collections of data and more complex entities. An object is a standalone entity, with properties and type. It's similar to real-life objects, like a car, which has properties like color, brand, and model. In javaScript, we can create an object using curly braces {} and define its properties using key-value pairs. For example:
+    </p>
+</body>
+</html>
